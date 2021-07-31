@@ -1,0 +1,39 @@
+.menu{
+	background-color: teal;
+}
+.menu>ul{
+	list-style-type: none;
+	
+}
+.menu > ul > li{
+	display: inline-block;
+}
+.menu > ul > li > a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: 10px;
+}
+.menu > ul > li > a:hover{
+	background-color: orange;
+}
+.drop{
+	list-style-type:none;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	display: none;
+}
+.drop > li > a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: 10px;
+	background-color: black;
+}
+.drop > li > a:hover{
+	background-color: orange;
+}
+.menu > ul > li:hover .drop{
+	display: block;
+}

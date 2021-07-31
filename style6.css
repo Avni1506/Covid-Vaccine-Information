@@ -1,0 +1,8 @@
+#profile,#profile th, #profile td{
+	border: 1px solid black;
+  border-collapse: collapse;
+}
+#profile{
+	float:left;
+	margin-left:20px;
+}

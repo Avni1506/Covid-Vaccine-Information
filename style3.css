@@ -1,0 +1,12 @@
+.change{
+	margin-left:25px;
+	margin-right:1000px;
+	margin-top:200px;
+	padding:10px;
+	width:500px;
+	height:auto;
+	border: 2px solid black;
+	border-radius:10px;
+	font-family: sans-serif;
+	box-shadow: 1px 1px 10px black;
+}
